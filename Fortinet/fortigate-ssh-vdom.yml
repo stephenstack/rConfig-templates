@@ -3,10 +3,12 @@
 ## - All free text values must be wrapped in double quotes: " "
 ## - Documentation: https://docs.rconfig.com/devices/templates/
 ## - Community templates and contributions: https://github.com/rconfig/rConfig-templates
+## FORTINET Prompts should not include a wildcard between the hostname and the #.
+## FORTINET Use format: hostname# (no space or wildcard).
 
 main:
-  name: "Fortigate SSH no enable: Non-Vdom"
-  desc: "Fortigate SSH no enable: Non-Vdom"
+  name: "Fortigate SSH no enable: Vdom"
+  desc: "Fortigate SSH no enable: Vdom"
 
 connect:
   timeout: 5                              # Connection timeout (in seconds)
